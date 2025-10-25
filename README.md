@@ -1,2 +1,2 @@
 # Unit-Testing_Methods(Arrays)-Exercise
-This repository contains a collection of Automated Unit Tests verifying method functionality and behaviour using NUnit.
+This repository contains a collection of Automated Unit Tests verifying the functionality and behaviour of methods with arrays using NUnit.

@@ -68,6 +68,7 @@ public class RepeatingChecker_FirstReapeatingElementTests
     [Test]
     public void Test_FindFirstRepeatingElement_ArrayWithManyIntegerWithSameValues_ReturnsTheIntegerValue()
     {
+        // Ararnge
         int[] repeatingNegativeArray = new int[] { 7, 7, 7, 7, 7, 7, 7 };
         int expected = 7;
 
@@ -81,6 +82,7 @@ public class RepeatingChecker_FirstReapeatingElementTests
     [Test]
     public void Test_FindFirstRepeatingElement_ArrayWithAtLeastTwoReaptingValues_ReturnsTheRepeatingValue()
     {
+        // Arrange
         int[] repeatingNegativeArray = new int[] { 34, 56, 71, 34, 89 };
         int expected = 34;
 

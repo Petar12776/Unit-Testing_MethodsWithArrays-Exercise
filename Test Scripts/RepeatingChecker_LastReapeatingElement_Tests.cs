@@ -68,6 +68,7 @@ public class RepeatingChecker_LastReapeatingElementTests
     [Test]
     public void Test_FindLastRepeatingElement_ArrayWithManyIntegerWithSameValues_ReturnsTheIntegerValue()
     {
+        // Arrange
         int[] repeatingNegativeArray = new int[] { 950, 950, 950, 950, 950, 90, 950 };
         int expected = 950;
 
@@ -81,6 +82,7 @@ public class RepeatingChecker_LastReapeatingElementTests
     [Test]
     public void Test_FindLastRepeatingElement_ArrayWithAtLeastTwoReaptingValues_ReturnsTheRepeatingValue()
     {
+        // Arrange 
         int[] repeatingNegativeArray = new int[] { 456, 561, 743, 312, 899, 456 };
         int expected = 456;
 

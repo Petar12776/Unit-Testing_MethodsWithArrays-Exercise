@@ -54,6 +54,7 @@ public class MajorityTests
     [Test]
     public void Test_IsEvenOrOddMajority_EvenMajority_ReturnsPositiveNumber()
     {
+        // Arrange
         int[] evenMajority = new int[] { 2, 4, 6, 10, 12, 7, 5 };
         int expected = 3;
 
@@ -67,6 +68,7 @@ public class MajorityTests
     [Test]
     public void Test_IsEvenOrOddMajority_OddMajority_ReturnsNegativeNumber()
     {
+        // Arrange
         int[] oddMajority = new int[] { 3, 5, 7, 9, 11, 13, 10, 12 };
         int expected = -4;
 

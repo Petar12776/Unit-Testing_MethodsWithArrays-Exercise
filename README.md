@@ -25,8 +25,8 @@ Execute all NUnit tests
 Display results directly in the console
 
 Framework and Tools - 
-.NET 8.0
-NUnit 3
-NUnit3TestAdapter
-Microsoft.NET.Test.Sdk
-coverlet.collector (for code coverage)
+.NET 8.0,
+NUnit 3,
+NUnit3TestAdapter,
+Microsoft.NET.Test.Sdk,
+coverlet.collector (for code coverage),
